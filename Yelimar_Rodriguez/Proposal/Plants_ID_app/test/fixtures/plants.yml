@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  genus: MyString
+  description: MyText
+  medicinal_uses: MyText
+  utilitarian_uses: MyText
+  edible_parts/preparation: MyText
+
+two:
+  name: MyString
+  genus: MyString
+  description: MyText
+  medicinal_uses: MyText
+  utilitarian_uses: MyText
+  edible_parts/preparation: MyText
