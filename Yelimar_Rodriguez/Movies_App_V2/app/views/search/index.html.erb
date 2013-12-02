@@ -1,15 +1,7 @@
-<h1>Welcome to RetFlix! </h1>
-<p>See our collection of movies below</p> 
-
-<%= form_tag '/search', method: :get do %>
-  <%= label_tag 'q', "Search for a Movie" %>
-  <%= text_field_tag 'q' %>
-  <%= submit_tag 'Search'%>
-<% end %>  
-
+<h1>Search Result</h1>
 <table>
   <tr>
-    <th>Movie List</th>
+    <th>Movies</th>
   </tr>
  
   <% @movies.each do |movie| %>
@@ -22,4 +14,5 @@
     </tr> 
     </tr>
   <% end %>
-</table>
+
+<p><%= link_to "Home", root_path %></p>

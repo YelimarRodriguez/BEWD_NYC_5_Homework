@@ -1,4 +1,5 @@
 MoviesAppV2::Application.routes.draw do
+  get "search", to: 'search#index'
   root "movies#index"
   get "movies", to: 'movies#index'
   # The priority is based upon order of creation: first created -> highest priority.
