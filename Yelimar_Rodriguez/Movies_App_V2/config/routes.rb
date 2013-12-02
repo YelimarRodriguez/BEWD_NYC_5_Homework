@@ -2,6 +2,7 @@ MoviesAppV2::Application.routes.draw do
   get "search", to: 'search#index'
   root "movies#index"
   get "movies", to: 'movies#index'
+  resources :movies 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
